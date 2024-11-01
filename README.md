@@ -49,25 +49,38 @@
 
 
 1.	TEST PLAN IDENTIFIER:  AT-TP01.3
+
 2.	REFERENCE MATERIALS
+    
     1.Software Requirement Specification (SRS): Details functional and non-functional requirements, including data input, prediction modules, and user management.
+    
     2.User Manual: Provides end-user instructions for data input, model training, predictions, and report exports.
+    
     3.System Architecture Document: Outlines system architecture, including machine learning integration, database connections, and real-time streaming.
+    
     4.Test Case Document: Contains specific test cases validating system functionality per SRS.
+    
     5.Regulatory Compliance Documents: Covers GDPR and HIPAA guidelines for data privacy and security.
+    
     6.Research References:
+      
        •	Antimicrobial Resistance: A Global Health Threat (2024)
+      
        •	Pan-Genome-Based Feature Selection for MIC Prediction (2023)
+      
        •	PathoFact Pipeline for AMR Gene Prediction (2021)
 
 3.  INTRODUCTION
+    
     3.1 Background
         Antimicrobial resistance (AMR) is a critical health crisis fueled by the misuse of antibiotics, leading to drug-resistant infections that are costly and harder to treat.
     3.2 Solution
         AMR Predictor PRO leverages machine learning to predict antibiotic resistance, providing real-time insights for healthcare. Its features include data visualization, mutation tracking, and database integration to support fast, accurate decision-making. This tool is a vital asset in the fight against AMR, aiding research and global health efforts to preserve antibiotic effectiveness.
 
 4.  Requirements Specification
+    
     4.1 System Features
+       
         1.Authentication Module
           Login with credentials or card scanning; "Forgot Password?" and "Remember Me" options.
           Priority: High
@@ -101,25 +114,43 @@
           Priority: Medium
 
     4.2 Quality Attributes (QAs)
+       
         Usability: Easy data input and predictions.
+       
         Performance: Handle large datasets within 5 seconds.
+       
         Scalability: Support 5,000 users and large data.
+       
         Reliability: 99.99% uptime.
+       
         Security: AES-256 encryption, 2FA.
+       
         Data Integrity: Validate data and maintain accuracy.
+       
         Maintainability: Continuous updates.
+       
         Support: Help desk with rapid response.
+       
         Interoperability: Integrate with genomic databases.
+       
         Data Backup: Daily backups with recovery options.
+       
         Compliance: GDPR/HIPAA and FAIR standards.
+       
         Scientific Integrity: Log user activities for reproducibility.
+       
         Visualization: Fast visualizations for decision-making.
+       
         Collaboration Scalability: Multi-team data sharing.
+       
         Data Anonymization: Patient data de-identified.
+       
         Availability: 24/7 global access.
 
 5. Testing Approach
+   
    Testing Levels
+     
      1.Requirement Analysis & Test Planning
        Objective: Define test scope and success metrics based on the Software Requirement Specification (SRS).
        Activities: Analyze SRS, plan test strategy (unit, integration, system), identify automation tools.
